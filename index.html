@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="https://kit.fontawesome.com/ae846c5386.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <title>Portfolio - JaveriaHamid</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <span>JaveriaHamid.</span>
+            </div>
+            <div class="nav-toggle" onclick="toggleNav()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+            <div class="nav-right">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+
+                <div class="mode">
+                    <span class="material-symbols-outlined">light_mode</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="first">
+            <div class="home-right">
+                <div class="heading">
+                    <h3 class="hello">Hello,</h3>
+                    <span class="pname">I am </span>
+                    <span class="name"> Javeria Hamid</span>
+                    <p class="pname">and I am a <span class="web-dev" id="element"> </span></p>
+                </div>
+                <div class="btn">
+                    <a class="cv-btn">Download CV <i class="fa-solid fa-download"></i></a>
+                </div>
+            </div>
+
+            <div class="home-left">
+                <img src="assets/PngItem_1127587.png" alt="img">
+            </div>
+        </div>
+    </section>
+
+    <div class="line">
+        <hr>
+    </div>
+
+    <section class="about" id="about">
+        <div class="content about-content">
+            <div class="heading">
+                <h3 class="hello">About Me</h3>
+            </div>
+            <div class="about-para">
+                <p class="about-me">
+                    Hello there! I'm <b>Javeria Hamid</b>, a passionate and self-driven web developer with a strong
+                    foundation in HTML5, CSS3, and JavaScript. My journey in the world of web development began with a
+                    curiosity to create visually appealing and interactive websites.
+
+                    Currently, I am honing my skills in the MERN (MongoDB, Express.js, React, Node.js) stack, eager to
+                    delve into the full-stack realm. I thrive on challenges and see each project as an opportunity to
+                    enhance my capabilities and contribute to the ever-evolving tech landscape.
+
+                    My expertise lies in crafting responsive and dynamic user interfaces using HTML5, CSS3, and
+                    JavaScript. Clean code, scalability, and a seamless user experience are at the forefront of my
+                    development philosophy.
+
+                    As a relentless self-learner, I am committed to staying updated with the latest industry trends and
+                    technologies. I believe in the power of continuous improvement and am always seeking ways to expand
+                    my knowledge base.
+
+                    Whether you need a visually stunning website, a dynamic web application, or assistance with the MERN
+                    stack, I am here to bring your ideas to life. Let's collaborate and create something remarkable
+                    together!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="content service-content">
+            <div class="heading">
+                <h3 class="hello">My Services</h3>
+            </div>
+
+            <div class="cards">
+                <div class="card">
+                    <div class="heading-icon">
+                        <span class="material-symbols-outlined">devices</span>
+                        <h4>Responsive Design</h4>
+                    </div>
+                    <p>Prioritize creating websites that seamlessly adapt to the diverse array of devices and screen
+                        sizes used by modern audiences. With responsive design, your site not only maintains its
+                        aesthetic appeal but also delivers a consistent and engaging user experience.</p>
+                </div>
+                <div class="card">
+                    <div class="heading-icon">
+                        <img class="web-design" src="assets/web-design-icon.svg" alt="img">
+                        <h4>Web Design</h4>
+                    </div>
+                    <p>Crafting visually stunning and user-friendly websites tailored to your unique requirements.
+                        Effective web design goes beyond aesthetics; it's about creating intuitive interfaces that guide
+                        users seamlessly through your content.</p>
+                </div>
+                <div class="card">
+                    <div class="heading-icon">
+                        <span class="material-symbols-outlined">webhook</span>
+                        <h4>API Integration</h4>
+                    </div>
+                    <p> Facilitating the connection between your frontend and external APIs to fetch and display dynamic
+                        data. By linking your frontend with external data sources through APIs, I enable your website to
+                        showcase real-time information, enhancing its interactivity and relevance.</p>
+                </div>
+                <div class="card">
+                    <div class="heading-icon">
+                        <img class="testing" src="assets/bug-icon.svg" alt="img">
+                        <h4>Testing and Debugging</h4>
+                    </div>
+                    <p>Conducting thorough testing and meticulous debugging to ensure the reliability and performance of
+                        your frontend code. From identifying and fixing bugs to optimizing code for efficiency, I employ
+                        industry best practices to deliver robust and error-free solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="content projects-content">
+            <div class="heading">
+                <h3 class="hello">My Projects</h3>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="project">
+                        <h4>&#128640; Tic Tac Toe</h4>
+                        <p>With smooth animations and responsive design, Tic Tac Toe adapts seamlessly to various screen
+                            sizes, making it playable.</p>
+                    </div>
+                    <div class="preview-div">
+                        <button class="preview-btn"><a href="https://javeriahamid.github.io/tic-tac-toe-game/"
+                                target="_blank">Preview</a></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="project">
+                        <h4>&#128640; Todo-List App</h4>
+                        <p>Build this Todo-List app using React and Tailwind CSS which stores data on local storage.</p>
+                    </div>
+                    <div class="preview-div">
+                        <button class="preview-btn"><a href="https://github.com/JaveriaHamid/todolist-app"
+                                target="_blank">Preview</a></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="project">
+                        <h4>&#128640; Password Generator</h4>
+                        <p>Provides random password to user on the basis of their chosen checkbox.</p>
+                    </div>
+                    <div class="preview-div">
+                        <button class="preview-btn"><a href="https://javeriahamid.github.io/password-generator/"
+                                target="_blank">Preview</a></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="project">
+                        <h4>&#128640; X-Twitter Home-page Clone</h4>
+                        <p>Twitter homepage clone meticulously crafted using modern web framework Tailwind CSS.</p>
+                    </div>
+                    <div class="preview-div">
+                        <button class="preview-btn"><a href="https://javeriahamid.github.io/X-Clone/"
+                                target="_blank">Preview</a></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="project">
+                        <h4>&#128640; Weather App</h4>
+                        <p>A sleek and intuitive weather application built with HTML, CSS, and JavaScript, leveraging
+                            the Fetch API to provide real-time weather data.</p>
+                    </div>
+                    <div class="preview-div">
+                        <button class="preview-btn"><a href="https://javeriahamid.github.io/weather-app/"
+                                target="_blank">Preview</a></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="project">
+                        <h4>&#128640; Netflix Non-Member Clone</h4>
+                        <p>Netflix homepage clone, crafted with CSS to replicate the familiar and inviting interface of
+                            the world's leading streaming platform.</p>
+                    </div>
+                    <div class="preview-div">
+                        <button class="preview-btn"><a href="https://javeriahamid.github.io/clone-of-netflix/"
+                                target="_blank">Preview</a></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="project">
+                        <h4>&#128640; Currency Coverter</h4>
+                        <p>User-friendly currency converter application built with HTML, CSS, and JavaScript, designed
+                            to help users quickly and easily convert between different currencies. </p>
+                    </div>
+                    <div class="preview-div">
+                        <button class="preview-btn"><a href="https://javeriahamid.github.io/currency-converter/"
+                                target="_blank">Preview</a></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="project">
+                        <h4>&#128640; Rock Paper Scissors Game</h4>
+                        <p>This Rock, Paper, Scissors game, crafted with React.js, JavaScript, and Tailwind CSS,
+                            provides a dynamic and visually appealing experience.</p>
+                    </div>
+                    <div class="preview-div">
+                        <button class="preview-btn"><a href="https://javeriahamid.github.io/Rock-Paper-Scissor/"
+                                target="_blank">Preview</a></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="project">
+                        <h4>&#128640; Dummy Fries</h4>
+                        <p>Build this website using HTML, CSS, and JS. Totally responsive and visually appealing.</p>
+                    </div>
+                    <div class="preview-div">
+                        <button class="preview-btn"><a href="https://javeriahamid.github.io/First-Responsive-Wesbsite/"
+                                target="_blank">Preview</a></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="project">
+                        <h4> &#128640; Calculator</h4>
+                        <p>Performs mathematical calculations with ease using this powerful calculator.</p>
+                    </div>
+                    <div class="preview-div">
+                        <button class="preview-btn"><a href="https://javeriahamid.github.io/calculator/"
+                                target="_blank">Preview</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content contact-content">
+            <div class="heading">
+                <h3 class="hello">Contact Details</h3>
+            </div>
+            <div class="contact-details">
+                <div class="p-card">
+                    <div class="profile">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="desc">
+                        <p>Name</p>
+                        <p>Javeria Hamid</p>
+                    </div>
+                </div>
+                <div class="p-card">
+                    <div class="profile">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <div class="desc">
+                        <p>LinkedIn</p>
+                        <p>www.linkedin.com/in/javeria-h-b783522a6</p>
+                    </div>
+                </div>
+                <div class="p-card">
+                    <div class="profile">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                    <div class="desc">
+                        <p>GitHub</p>
+                        <p>https://github.com/javeriahamid</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        2024 | JaveriaHamid.
+    </footer>
+
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Freelancer.'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
